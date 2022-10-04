@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    justify-content: space-around
+}
+
+.QRnav {
+    margin-left: 206px;
+}
+
+.img {
+    width: 170px;
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.body {
+    background-color: #ffffff;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 15px;
+    margin: 1rem;
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.menu:hover {
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+
+.videoHola {
+    border: 5px solid white;
+    width: 856px;
+    height: 525px;
+    margin: 2rem;
+
+}
+
+.menu3 {
+    text-decoration: none;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#buscadorIcono {
+    position: absolute;
+    margin-left: -233px;
+    margin-top: 36px;
+}
+
+
+
+li {
+    margin-top: 0.5rem;
+}
+
+
+#boton-carrito {
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+
+}
+
+.barra i {
+    font-size: 20px;
+}
+
+.src {
+    margin: 1rem;
+}
+
+input {
+    padding: 1em 15px 15px 30px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+/* main */
+.cardPadre {
+    margin: 1rem;
+    display: flex;
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    width: 18rem;
+}
+
+.main {
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#contacto h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+#h3Video {
+    font-size: 4.5rem;
+    border-bottom: solid 3px black;
+}
+
+#h3 {
+    border-bottom: solid 3px black;
+}
+
+#contacto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/* historia */
+
+.imgHisto {
+    width: 300px;
+    border-radius: 100%;
+    margin-left: 600px;
+
+}
+
+.pHisto {
+    margin-top: 2rem;
+    max-width: 1364px;
+    margin-left: 100px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+}
+
+.mainHisto {
+    background-image: url(../img/bar.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    height: 659px;
+}
+
+/* footer */
+.QR {
+    max-width: 100px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    grid-area: footer;
+    background-color: #ffffff;
+    font-size: 16px;
+    padding: 1rem 1rem;
+}
+
+
+.row.primario {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    align-items: stretch;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.4em;
+    ;
+}
+
+.footer h3 {
+    align-items: center;
+}
+
+li {
+
+    margin-top: 0.5rem;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    padding: 1em 15px 15px 50px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+
+}
+
+
+div.redes {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+}
+
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+
+p {
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#redesFooter {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.botonFooter {
+    border-radius: 30px;
+    height: 40px;
+    width: 85px;
+    background-color: #1884a5;
+    color: #000000;
+}
+
+.gmail {
+    width: 220px;
+}
+
+/* media */
+
+
+@media (min-width:1024px) {
+    .link {
+        display: flex;
+    }
+
+    .card {
+        margin: 1rem;
+    }
+}
